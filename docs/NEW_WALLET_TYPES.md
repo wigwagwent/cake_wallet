@@ -9,7 +9,7 @@
 - Add a new entry to `WalletType` class in `cw_core/lib/wallet_type.dart`. 
 - Fill out the necessary information in the various functions in the files, concerning the wallet name, the native currency type, symbol etc.
 - Go to `cw_core/lib/currency_for_wallet_type.dart`, in the `currencyForWalletType` function, add a case for `walletx`, returning the native cryptocurrency for `walletx`. 
-- If the cryptocurrency for walletx is not available among the default cryptocurrencies, add a new cryptocurrency entry in `cw_core/lib/cryptocurrency.dart`. 
+- If the cryptocurrency for walletx is not available among the default cryptocurrencies, add a new cryptocurrency entry in `cw_core/lib/crypto_currency.dart`. 
 - Add the newly created cryptocurrency name to the list named `all` in this file.
 - Create a package for the wallet specific integration, name it. `cw_walletx`
 - Add the following initial common files and replicate to fit the wallet
